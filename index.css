@@ -32,3 +32,11 @@ h1.page-title {
   padding: 16px;
   border-radius: 25px;
 }
+
+.link {
+  color: #cf9c58f5;
+}
+
+.link:visited {
+  color: #958166;
+}

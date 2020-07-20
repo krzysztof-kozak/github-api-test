@@ -20,6 +20,6 @@ repos.forEach((repo) => {
 
   const listItem = document.createElement('li');
   listItem.classList.add('list__item');
-  listItem.innerHTML = `${name}: <a href=${html_url}>${html_url}</a>`;
+  listItem.innerHTML = `${name}: <a class="link" href=${html_url} rel="noopener" target="_blank">${html_url}</a>`;
   list.appendChild(listItem);
 });
